@@ -1,14 +1,14 @@
-import React, { FC } from "react";
 import {
   FormControl,
-  FormLabel,
-  RadioGroup,
   FormControlLabel,
-  Radio,
+  FormLabel,
   Paper,
-  Typography,
+  Radio,
+  RadioGroup,
   Stack,
+  Typography,
 } from "@mui/material";
+import { FC } from "react";
 import DebouncedTextField from "./DebouncedTextField";
 import { HorizontalSplitterChildProps } from "./HorizontalSplitter";
 
