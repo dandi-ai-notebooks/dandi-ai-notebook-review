@@ -227,7 +227,7 @@ function App() {
   );
 
   if (!url) {
-    return <div>Please provide a notebook URL in the query parameters</div>;
+    return <div>Please provide a notebook_url query parameter</div>;
   }
 
   return (
